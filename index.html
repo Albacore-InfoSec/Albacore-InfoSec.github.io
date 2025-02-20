@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Albacore Infosec</title>
+    <link rel="stylesheet" href="style.css">
+    <script>
+        function toggleMenu() {
+            document.getElementById("menu").classList.toggle("open");
+        }
+    </script>
+</head>
+<body>
+    <div class="menu" id="menu">
+        <button class="close-btn" onclick="toggleMenu()">&#10006;</button>
+        <button onclick="document.location='index.html'">Home</button>
+        <button onclick="document.location='about.html'">About Us</button>
+        <button onclick="document.location='services.html'">Services</>
+        <button onclick="document.location='contact.html'">Contact</>
+        <button onclick="document.location='index.html'">Research</>
+</div>
+
+    <div class="hamburger" onclick="toggleMenu()">
+        &#9776;
+    </div>
+
+    <div class="circular-panning-background"></div>
+
+
+    <header>
+        <h1 class="typed-header">
+            <span class="text-typing">Albacore InfoSec</span>
+        </h1>
+    </header>
+
+    <main>
+        <p>This is a bunch of sample data that just chills here</p>
+    </main>
+</body>
+</html>
